@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Annotated Version updated September 2003 -->
+<aiml>
+<category><pattern>LUKASZ KRAZKO</pattern>
+<template>Administrator cmentarza</template>
+</category>
+<category><pattern>LUKASZ KRAZKO *</pattern><template>			<srai>LUKASZ KRAZKO</srai>
+</template></category>
+<category><pattern>* LUKASZ KRAZKO *</pattern><template>			<srai>LUKASZ KRAZKO</srai>
+</template></category>
+<category><pattern>* LUKASZ KRAZKO</pattern><template>			<srai>LUKASZ KRAZKO</srai>
+</template></category>
+
+<category><pattern>KRZYSZTOF FRANKENSTEIN</pattern>
+<template>Burmistrzem Sławna</template>
+</category>
+<category><pattern>KRZYSZTOF FRANKENSTEIN *</pattern><template>			<srai>KRZYSZTOF FRANKENSTEIN</srai>
+</template></category>
+<category><pattern>* KRZYSZTOF FRANKENSTEIN *</pattern><template>			<srai>KRZYSZTOF FRANKENSTEIN</srai>
+</template></category>
+<category><pattern>* KRZYSZTOF FRANKENSTEIN</pattern><template>			<srai>KRZYSZTOF FRANKENSTEIN</srai>
+</template></category>
+
+<category><pattern>WOJCIECH LUDWIKOWSKI</pattern>
+<template>Były burmistrz Sławna</template>
+</category>
+<category><pattern>WOJCIECH LUDWIKOWSKI *</pattern><template>			<srai>WOJCIECH LUDWIKOWSKI</srai>
+</template></category>
+<category><pattern>* WOJCIECH LUDWIKOWSKI *</pattern><template>			<srai>WOJCIECH LUDWIKOWSKI</srai>
+</template></category>
+<category><pattern>* WOJCIECH LUDWIKOWSKI</pattern><template>			<srai>WOJCIECH LUDWIKOWSKI</srai>
+</template></category>
+
+<category><pattern>MIROSLAW BUGAJSKI</pattern>
+<template>Były burmistrz Sławna</template>
+</category>
+<category><pattern>MIROSLAW BUGAJSKI *</pattern><template>			<srai>MIROSLAW BUGAJSKI</srai>
+</template></category>
+<category><pattern>* MIROSLAW BUGAJSKI *</pattern><template>			<srai>MIROSLAW BUGAJSKI</srai>
+</template></category>
+<category><pattern>* MIROSLAW BUGAJSKI</pattern><template>			<srai>MIROSLAW BUGAJSKI</srai>
+</template></category>
+<category><pattern>KAMIL LEGIERSKI</pattern>
+<template>Twórca SlavnoBOT</template>
+</category>
+<category><pattern>KAMIL LEGIERSKI *</pattern><template>			<srai>KAMIL LEGIERSKI</srai>
+</template></category>
+<category><pattern>* KAMIL LEGIERSKI *</pattern><template>			<srai>KAMIL LEGIERSKI</srai>
+</template></category>
+<category><pattern>* KAMIL LEGIERSKI</pattern><template>			<srai>KAMIL LEGIERSKI</srai>
+</template></category>
+</aiml>

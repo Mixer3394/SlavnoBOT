@@ -1,0 +1,59 @@
+Ty: Co mi powiesz ?
+Bot: 
+          Mogę opowiedzieć Ci coś   
+          o SDK.
+Ty: Co to jest sdk ?
+Bot: 
+          To intytucja kulturalna, gdzie znajdziesz:
+          	Kino 2D i 3D
+          	Panią Bożene
+          	liczne zajęcia kulturalne
+          	różnego rodzaju wernisaże
+          	różne spektakle teatralne oraz koncerty.
+Ty: Co jeszcze mi powiesz ?
+Bot: 
+          Mogę opowiedzieć Ci coś   
+          ogólnie o Sławnie.
+Ty: Powiedz coś ogólnie o Sławnie
+Bot: 
+          Mogę opowiedzieć Ci coś   
+          o wladzy.
+Ty: Powiedz ogólnie o Sławnie
+Bot: 
+          Sławno to miasto w północno-zachodniej Polsce, w województwie
+          zachodniopomorskim, w powiecie sławieńskim, położone na
+          Pobrzeżu Koszalińskim, nad rzeką Wieprzą i strugą 
+          Moszczenicą, ok. 20 km od wybrzeża Morza Bałtyckiego.
+Ty: Co mi jeszcze powiesz ?
+Bot: 
+          Mogę opowiedzieć Ci coś   
+          o pomnikach przyrody.
+Ty: Kto to jest Kamil Legierski ?
+Bot: 
+          Twórca SlavnoBOT.
+Ty: Jaka jest pogoda ?
+Bot: Aktualna temperatura to: 3,1°C
+       Aktualnie nad Sławnem występuje zachmurzenie
+Ty: Jaka będzie pogoda ?
+Bot: Pogoda na kolejne dni:
+          
+          Data: 2016-12-19T15:00:00
+          Pogoda: porozrywane chmury
+          Temperatura: 1.4°C
+           
+          Data: 2016-12-20T15:00:00
+          Pogoda: czyste niebo
+          Temperatura: -0.62°C
+           
+          Data: 2016-12-21T15:00:00
+          Pogoda: czyste niebo
+          Temperatura: 1.8°C
+           
+          Data: 2016-12-22T15:00:00
+          Pogoda: czyste niebo
+          Temperatura: 1.73°C
+           
+          Data: 2016-12-23T15:00:00
+          Pogoda: rozproszone chmury
+          Temperatura: 5.5°C
+           

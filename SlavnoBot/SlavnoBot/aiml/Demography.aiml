@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Annotated Version updated September 2003 -->
+<aiml>
+<category><pattern>ILE OSOB MIESZKA W SLAWNIE</pattern>
+<template>Według danych z 30.06.2016 w Sławnie zamieszkuje
+12 674 osób</template>
+</category>
+<category><pattern>ILE OSOB * W SLAWNIE</pattern><template>			<srai>ILE OSOB MIESZKA W SLAWNIE</srai>
+</template></category>
+<category><pattern>* LICZBA LUDNOSCI *</pattern><template>			<srai>ILE OSOB MIESZKA W SLAWNIE</srai>
+</template></category>
+<category><pattern>* LICZBA LUDNOSCI</pattern><template>			<srai>ILE OSOB MIESZKA W SLAWNIE</srai>
+</template></category>
+<category><pattern>ILU MIESZKANCOW</pattern><template>			<srai>ILE OSOB MIESZKA W SLAWNIE</srai>
+</template></category>
+<category><pattern>ILU MIESZKANCOW * </pattern><template>			<srai>ILE OSOB MIESZKA W SLAWNIE</srai>
+</template></category>
+
+<category><pattern>POPULACJA</pattern>
+<template>Według danych z 30.06.2016 w Sławnie zamieszkuje
+12 674 osób
+co powoduje gęstość na poziomie 800,6 os/km2</template>
+<category><pattern>* POPULACJA</pattern><template>			<srai>POPULACJA</srai>
+</template></category>
+<category><pattern>* POPULACJA *</pattern><template>			<srai>POPULACJA</srai>
+</template></category>
+<category><pattern>POPULACJA *</pattern><template>			<srai>POPULACJA</srai>
+</template></category>
+
+</category>
+</aiml>

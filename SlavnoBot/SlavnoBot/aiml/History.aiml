@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 <!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
 <!-- This program is open source code released under -->
@@ -7,14 +7,583 @@
 <!-- Complies with AIML 1.01 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Annotated Version updated September 2003 -->
-<category><pattern>DO YOU KNOW HISTORY</pattern><template>			<srai>WHAT IS HISTORY</srai>
+<category><pattern>OD KIEDY PRAWA MIEJSKIE</pattern><template>Sławno otrzymało prawa miejskie 22 maja 1317 roku</template></category>
+<category><pattern>OD KIEDY * PRAWA MIEJSKIE</pattern><template>			<srai>OD KIEDY PRAWA MIEJSKIE</srai>
 		</template></category>
-<category><pattern>EXPLAIN HISTORY</pattern><template>History has two broad interpretations, depending on whether you
-accept the role of individuals as important or not.</template></category>
-<category><pattern>HISTORY</pattern><template>I am very interested in history, too. What period do you like?</template></category>
-<category><pattern>TELL ME ABOUT HISTORY</pattern><template>			<srai>WHAT IS HISTORY </srai>
+<category><pattern>KIEDY * PRAWA MIEJSKIE</pattern><template>			<srai>OD KIEDY PRAWA MIEJSKIE</srai>
 		</template></category>
-<category><pattern>WHAT IS HISTORY</pattern><template>History: the course of political, economic and military events over time, from the Dawn of Man to the Age of AI.</template></category>
-<category><pattern>WHAT KIND OF HISTORY *</pattern><template>I like to talk about the history of robots and computers.</template></category>
+		
+<category><pattern>OD KIEDY ISTNIEJE SLAWNO</pattern><template>			<srai>OD KIEDY PRAWA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJE * SLAWNO</pattern><template>			<srai>OD KIEDY PRAWA MIEJSKIE</srai>
+		</template></category>
 
+<category><pattern>OD KIEDY BRAMY</pattern><template>Brama Koszalińska istnieje od 1453 roku,
+natomiast Brama Słupska istnieje od 1458 roku</template></category>
+<category><pattern>OD KIEDY BRAMA KOSZALINSKA</pattern><template> Pierwsza wzmianka o Bramie Koszalińskiej jest już z 1453 roku</template></category>
+<category><pattern>OD KIEDY BRAMA SLUPSKA</pattern><template> Pierwsza wzmianka o Bramie Słupskiej jest już z 18 grudnia 1458 roku</template></category>
+<category><pattern>OD KIEDY BRAMA</pattern>
+<template>Jeśli pytasz o 
+<random>
+<li>Bramę Koszalińską, to pierwsza wzmianka o niej jest już z 1453 roku</li>
+<li>Bramę Słupska, to pierwsza wzmianka jest z 18 grudnia 1458 roku</li>
+</random>
+</template>
+</category>
+<category><pattern>OD KIEDY * BRAMY *</pattern><template>			<srai>OD KIEDY BRAMY</srai>
+		</template></category>
+<category><pattern>OD KIEDY * BRAMA KOSZALINSKA</pattern><template>			<srai>OD KIEDY BRAMA KOSZALINSKA</srai>
+		</template></category>
+<category><pattern>OD KIEDY * BRAMA SLUPSKA</pattern><template>			<srai>OD KIEDY BRAMA SLUPSKA</srai>
+		</template></category>
+<category><pattern>OD KIEDY * BRAMA KOSZALINSKA * </pattern><template>			<srai>OD KIEDY BRAMA KOSZALINSKA</srai>
+		</template></category>
+<category><pattern>OD KIEDY * BRAMA SLUPSKA *</pattern><template>			<srai>OD KIEDY BRAMA SLUPSKA</srai>
+		</template></category>
+<category><pattern>OD KIEDY * BRAMA</pattern><template>			<srai>OD KIEDY BRAMA</srai>
+		</template></category>
+		<category><pattern>OD KIEDY * BRAMA *</pattern><template>			<srai>OD KIEDY BRAMA</srai>
+		</template></category>
+<category><pattern>KIEDY * BRAMA KOSZALINSKA</pattern><template>			<srai>OD KIEDY BRAMA KOSZALINSKA</srai>
+		</template></category>
+<category><pattern>KIEDY * BRAMA SLUPSKA</pattern><template>			<srai>OD KIEDY BRAMA SLUPSKA</srai>
+		</template></category>
+<category><pattern>KIEDY * BRAMA</pattern><template>			<srai>OD KIEDY BRAMA</srai>
+		</template></category>
+<category><pattern>KIEDY * BRAMA KOSZALINSKA *</pattern><template>			<srai>OD KIEDY BRAMA KOSZALINSKA</srai>
+		</template></category>
+<category><pattern>KIEDY * BRAMA SLUPSKA *</pattern><template>			<srai>OD KIEDY BRAMA SLUPSKA</srai>
+		</template></category>
+<category><pattern>KIEDY * BRAMA *</pattern><template>			<srai>OD KIEDY BRAMA</srai>
+		</template></category>
+<category><pattern>JAKIE SA BRAMY W SLAWNIE</pattern><template> W Sławnie są dwie bramy
+Brama Słupska
+Brama Koszalińska
+jeśli chcesz wiedzieć coś więcej o nich zapytaj mnie o nie</template></category>
+<category><pattern>* BRAMACH</pattern><template>			<srai>JAKIE SA BRAMY W SLAWNIE</srai>
+		</template></category>
+<category><pattern>BRAMACH *</pattern><template>			<srai>JAKIE SA BRAMY W SLAWNIE</srai>
+		</template></category>
+<category><pattern>* BRAMACH *</pattern><template>			<srai>JAKIE SA BRAMY W SLAWNIE</srai>
+		</template></category>
+<category><pattern>* BRAMIE SLUPSKIEJ</pattern><template> Pierwsza wzmianka o obiekcie pochodzi z 1458 roku.
+Jest budowlą wolnostojącą, usytuowaną na skrzyżowaniu ulic;
+Basztowej i Skłodowskiej. Usytuowana na północ od rynku,
+w pobliżu mostu przez Moszczenicę. Obiekt murowany z cegły 
+ceramicznej pełnej, w wątku wendyjskim. Fundamenty wykonane
+z kamienia polnego. Pierwotny kształt bramy czytelny jest na
+widoku Lubinusa z 1618 r. W 1738 r. przeprowadzono remont 
+obiektu i przystosowano do potrzeb miejscowego garnizonu 
+wojskowego.W 1816 roku adaptowano bramę na warsztaty 
+wojskowe, a w późniejszym czasie służyła jako magazyn. 
+Na poddaszu zachowałosię drewniane koło do nawijania lin i
+transportu ciężarów.W latach 80-tych XX w. brama częściowo 
+była zamieszkiwana.</template></category>
+ <category><pattern>* BRAMIE SLUPSKIEJ *</pattern><template>			<srai>* BRAMIE SLUPSKIEJ</srai>
+		</template></category>
+ <category><pattern>BRAMIE SLUPSKIEJ *</pattern><template>			<srai>* BRAMIE SLUPSKIEJ</srai>
+		</template></category>
+ <category><pattern>BRAMA SLUPSKA</pattern><template>			<srai>* BRAMIE SLUPSKIEJ</srai>
+		</template></category>
+<category><pattern>BRAMA SLUPSKA *</pattern><template>			<srai>* BRAMIE SLUPSKIEJ</srai>
+		</template></category>
+ <category><pattern>* BRAMA SLUPSKA</pattern><template>			<srai>* BRAMIE SLUPSKIEJ</srai>
+		</template></category>
+ <category><pattern>* BRAMA SLUPSKA *</pattern><template>			<srai>* BRAMIE SLUPSKIEJ</srai>
+		</template></category>
+		
+<category><pattern>ILE LAT MA BRAMA SLUPSKA</pattern>
+<template>Ponad 563 lata !
+</template></category>
+ <category><pattern>ILE * BRAMA SLUPSKA</pattern><template>			<srai>ILE LAT MA BRAMA SLUPSKA</srai>
+		</template></category>
+<category><pattern>ILE * BRAMA SLUPSKA *</pattern><template>			<srai>ILE LAT MA BRAMA SLUPSKA</srai>
+		</template></category>
+<category><pattern>* ILE * BRAMA SLUPSKA *</pattern><template>			<srai>ILE LAT MA BRAMA SLUPSKA</srai>
+		</template></category>
+<category><pattern>* ILE * BRAMA SLUPSKA</pattern><template>			<srai>ILE LAT MA BRAMA SLUPSKA</srai>
+		</template></category>
+		
+		
+		<category><pattern>* BRAMIE KOSZALINSKIEJ</pattern><template> Pierwsza wzmianka o Bramie Koszalińskiej pochodzi z 1453 roku.
+Jest budowlą wolnostojącą, usytuowaną na ulicy Jedności 
+Narodowej w pobliżu ulicy Basztowej, w południowej 
+części miasta lokacyjnego. Obiekt murowany z cegły 
+ceramicznej pełnej, w wątku wendyjskim. Fundamenty 
+wykonane z kamienia polnego.W 1738r. miejscowy garnizon,
+po nabyciu bramy od miasta, przeprowadził jej remont 
+i adaptował na warsztaty. Stojące w pobliżu bramy 
+czatownie miasto przebudowało na własny koszt, 
+adaptując na cele mieszkaniowe. W 1913 roku przeprowadzono
+prace remontowe Bramy Koszalińskiej przeznaczając ją 
+na potrzeby organizacji młodzieżowych. Pękające ściany
+zabezpieczono żelaznymi ściągami, a ubytki lica 
+uzupełniono współczesną cegłą. Po II wojnie światowej 
+brama służyła Straży Pożarnej do suszenia węży strażackich.</template></category>
+ <category><pattern>* BRAMIE KOSZALINSKIEJ *</pattern><template>			<srai>* BRAMIE KOSZALINSKIEJ</srai>
+		</template></category>
+ <category><pattern>BRAMIE KOSZALINSKIEJ *</pattern><template>			<srai>* BRAMIE KOSZALINSKIEJ</srai>
+		</template></category>
+ <category><pattern>BRAMA KOSZALINSKA</pattern><template>			<srai>* BRAMIE KOSZALINSKIEJ</srai>
+		</template></category>
+ <category><pattern>BRAMA KOSZALINSKA *</pattern><template>			<srai>* BRAMIE KOSZALINSKIEJ</srai>
+		</template></category>	
+ <category><pattern>* BRAMA KOSZALINSKA</pattern><template>			<srai>* BRAMIE KOSZALINSKIEJ</srai>
+		</template></category>	
+ <category><pattern>* BRAMA KOSZALINSKA *</pattern><template>			<srai>* BRAMIE KOSZALINSKIEJ</srai>
+		</template></category>		
+<category><pattern>ILE LAT MA BRAMA KOSZALINSKA</pattern>
+<template>Ponad 563 lata !
+</template></category>
+ <category><pattern>ILE LAT * BRAMA KOSZALINSKA</pattern><template>			<srai>ILE LAT MA BRAMA KOSZALINSKA</srai>
+		</template></category>
+<category><pattern>ILE LAT* BRAMA KOSZALINSKA *</pattern><template>			<srai>ILE LAT MA BRAMA KOSZALINSKA</srai>
+		</template></category>
+<category><pattern>* ILE LAT * BRAMA KOSZALINSKA *</pattern><template>			<srai>ILE LAT MA BRAMA KOSZALINSKA</srai>
+		</template></category>
+<category><pattern>* ILE LAT * BRAMA KOSZALINSKA</pattern><template>			<srai>ILE LAT MA BRAMA KOSZALINSKA</srai>
+		</template></category>
+		
+ <category><pattern>BRAMIE *</pattern><template>			<srai>JAKIE SA BRAMY W SLAWNIE</srai>
+		</template></category>
+<category><pattern>* BRAMIE *</pattern><template>			<srai>JAKIE SA BRAMY W SLAWNIE</srai>
+		</template></category>
+ <category><pattern>* BRAMIE</pattern><template>			<srai>JAKIE SA BRAMY W SLAWNIE</srai>
+		</template></category>		
+		
+<category><pattern>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</pattern><template>Obwarowania miejskie w Sławnie pochodzą z XV wieku,
+zostały wykonane z cegły, z użyciem głazów narzutowych
+w fundamentach  i przyziemiu</template></category>
+<category><pattern>KIEDY POWSTALY OBWAROWANIA MIEJSKIE * </pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY POWSTALY MURY</pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY POWSTALY MURY * </pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY POWSTALY * MURY * </pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY POWSTALY * MURY </pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY POWSTALY MUR</pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY POWSTALY MUR * </pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY POWSTALY * MUR * </pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY POWSTALY * MUR </pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY ZOSTALY WYBUDOWANE OBWAROWANIA MIEJSKIE</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY ZOSTALY WYBUDOWANE * OBWAROWANIA MIEJSKIE</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY ZOSTALY WYBUDOWANE OBWAROWANIA MIEJSKIE *</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY ZOSTALY WYBUDOWANE * OBWAROWANIA MIEJSKIE *</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY ZOSTALY WYBUDOWANE MURY *</pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY ZOSTALY WYBUDOWANE MURY</pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY ZOSTALY WYBUDOWANE * MURY</pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY ZOSTALY WYBUDOWANE * MURY *</pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY ZOSTALY WYBUDOWANE MUR *</pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY ZOSTALY WYBUDOWANE MUR</pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY ZOSTALY WYBUDOWANE * MUR</pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>KIEDY ZOSTALY WYBUDOWANE * MUR *</pattern><template>			<srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJA OBWAROWANIA MIEJSKIE *</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJA OBWAROWANIA MIEJSKIE</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJA * OBWAROWANIA MIEJSKIE</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJA * OBWAROWANIA MIEJSKIE *</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJA MURY *</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJA MURY</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJA * MURY</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJA * MURY *</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJA MUR *</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJA MUR</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJA * MUR</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+<category><pattern>OD KIEDY ISTNIEJA * MUR *</pattern><template><srai>KIEDY POWSTALY OBWAROWANIA MIEJSKIE</srai>
+		</template></category>
+
+<category><pattern>OBWAROWANIA MIEJSKIE</pattern><template> Obwarowania miejskie w Sławnie aktualnie to fragmenty murów 
+obronnych z gotyckimi bramami miejskimi: 
+Koszalińską i Słupską (XV wiek)</template></category>
+	
+<category><pattern>* OBWAROWANIA MIEJSKIE</pattern><template>			<srai>OBWAROWANIA MIEJSKIE</srai>
+</template></category>		
+
+<category><pattern>OBWAROWANIA MIEJSKIE *</pattern><template>			<srai>OBWAROWANIA MIEJSKIE</srai>
+</template></category>
+<category><pattern>* OBWAROWANIAch MIEJSKICH</pattern><template>			<srai>OBWAROWANIA MIEJSKIE</srai>
+</template></category>
+<category><pattern>* OBWAROWANIA MIEJSKIE *</pattern><template>			<srai>OBWAROWANIA MIEJSKIE</srai>
+</template></category>
+<category><pattern>MURY</pattern><template>			<srai>OBWAROWANIA MIEJSKIE</srai>
+</template></category>
+<category><pattern>MURY * </pattern><template>			<srai>OBWAROWANIA MIEJSKIE</srai>
+</template></category>
+<category><pattern>* MURY</pattern><template>			<srai>OBWAROWANIA MIEJSKIE</srai>
+</template></category>
+<category><pattern>* MURY *</pattern><template>			<srai>OBWAROWANIA MIEJSKIE</srai>
+</template></category>
+<category><pattern>MUR</pattern><template>			<srai>OBWAROWANIA MIEJSKIE</srai>
+</template></category>
+<category><pattern>MUR * </pattern><template>			<srai>OBWAROWANIA MIEJSKIE</srai>
+</template></category>
+<category><pattern>* MUR</pattern><template>			<srai>OBWAROWANIA MIEJSKIE</srai>
+</template></category>
+<category><pattern>* MUR *</pattern><template>			<srai>OBWAROWANIA MIEJSKIE</srai>
+</template></category>
+
+<category><pattern>JAK NAZYWALO SIE SLAWNO</pattern><template>Gdy Sławno należało do Niemiec, nie nazywało się Sławno, a Schlawe</template></category>
+<category><pattern>JAK NAZYWA * SLAWNO PO NIEMIECKU</pattern><template>			<srai>JAK NAZYWALO SIE SLAWNO</srai>
+</template></category>
+<category><pattern>JAK NAZYWALO * SLAWNO</pattern><template>			<srai>JAK NAZYWALO SIE SLAWNO</srai>
+</template></category>
+<category><pattern>JAK NAZYWALO * SLAWNO *</pattern><template>			<srai>JAK NAZYWALO SIE SLAWNO</srai>
+</template></category>
+<category><pattern>* PO NIEMIECKU</pattern><template>			<srai>JAK NAZYWALO SIE SLAWNO</srai>
+</template></category>
+
+<category><pattern>HISTORIA</pattern>
+<template>Sławno ma bardzo bogatą historię   
+Czy słyszałeś może o <random>
+<li>obwarowania miejskich?</li>
+<li>bramach gotyckich ?</li>
+<li>kościele WNMP ?</li>
+<li>tym kiedy Sławno otrzymało prawa miejskie ?</li>
+<li>sławieńskich zabytkach ?</li>
+</random>
+Zapytaj mnie o to.
+</template>
+</category>
+
+<category><pattern>HISTORIA *</pattern><template>			<srai>HISTORIA</srai>
+</template></category>
+<category><pattern>* HISTORIA </pattern><template>			<srai>HISTORIA</srai>
+</template></category>
+<category><pattern>* HISTORIA *</pattern><template>			<srai>HISTORIA</srai>
+</template></category>
+<category><pattern>HISTORII *</pattern><template>			<srai>HISTORIA</srai>
+</template></category>
+<category><pattern>* HISTORII </pattern><template>			<srai>HISTORIA</srai>
+</template></category>
+<category><pattern>* HISTORII *</pattern><template>			<srai>HISTORIA</srai>
+</template></category>
+
+<category><pattern>JAKIE ZABYTKI MA SLAWNO</pattern><template>W Sławnie jest wiele zabytków, ale do najważniejszych należa:
+	Brama Słupska
+	Brama Koszalińska
+	Budynek Poczty
+	Dworzec PKP
+	Kościół Parafialny pw. św Antoniego
+	Kościół WNMP
+	Ratusz Miejski</template></category>
+
+<category><pattern>JAKIE ZABYTKI *</pattern><template>			<srai>JAKIE ZABYTKI MA SLAWNO</srai>
+</template></category>
+<category><pattern>* ZABYTKI *</pattern><template>			<srai>JAKIE ZABYTKI MA SLAWNO</srai>
+</template></category>
+<category><pattern>* ZABYTKI</pattern><template>			<srai>JAKIE ZABYTKI MA SLAWNO</srai>
+</template></category>
+<category><pattern>* ZABYTKACH</pattern><template>			<srai>JAKIE ZABYTKI MA SLAWNO</srai>
+</template></category>
+<category><pattern>ZABYTKACH *</pattern><template>			<srai>JAKIE ZABYTKI MA SLAWNO</srai>
+</template></category>
+
+<category><pattern>POCZTY</pattern>
+<template>Gmach Poczty pochodzi z początku XX wieku. W wyniku działań 
+wojennych budynek został znacznie zniszczony. W latach 
+powojennych odbudowany i do dnia dzisiejszego służy jako
+Urząd Pocztowy. Usługi pocztowe, głównie dzięki 
+korzystnemu położeniu Sławna na trasie Berlin – Gdańsk,
+mają historię sięgającą XVII stulecia.W 1867r. Otto Von Bismarck 
+wykupił warcińską posiadłość co sprawiło, że przez Sławno wiodły 
+kursy wypoczynkowe kanclerza Rzeszy, a także różnych polityków,
+ dygnitarzy i gości.
+</template></category>
+<category><pattern>* POCZTY</pattern><template>			<srai>POCZTY</srai>
+</template></category>
+<category><pattern>POCZTY *</pattern><template>			<srai>POCZTY</srai>
+</template></category>
+<category><pattern>* POCZTY *</pattern><template>			<srai>POCZTY</srai>
+</template></category>
+<category><pattern>POCZCIE *</pattern><template>			<srai>POCZTY</srai>
+</template></category>
+<category><pattern>* POCZCIE </pattern><template>			<srai>POCZTY</srai>
+</template></category>
+<category><pattern>* POCZCIE *</pattern><template>			<srai>POCZTY</srai>
+</template></category>
+<category><pattern>ILE LAT MA POCZTA</pattern>
+<template>Ponad 100 lat
+</template></category>
+<category><pattern>* LAT * POCZTA</pattern><template>			<srai>ILE LAT MA POCZTA</srai>
+</template></category>
+<category><pattern>* LAT * POCZTA *</pattern><template>			<srai>ILE LAT MA POCZTA</srai>
+</template></category>
+<category><pattern>ILE * POCZTA</pattern><template>			<srai>ILE LAT MA POCZTA</srai>
+</template></category>
+<category><pattern>* ILE * POCZTA *</pattern><template>			<srai>ILE LAT MA POCZTA</srai>
+</template></category>
+<category><pattern>ILE * POCZTY</pattern><template>			<srai>ILE LAT MA POCZTA</srai>
+</template></category>
+<category><pattern>* ILE * POCZTY *</pattern><template>			<srai>ILE LAT MA POCZTA</srai>
+</template></category>
+<category><pattern>ILE * POCZTY *</pattern><template>			<srai>ILE LAT MA POCZTA</srai>
+</template></category>
+<category><pattern>ILE LAT * POCZTY</pattern><template>			<srai>ILE LAT MA POCZTA</srai>
+</template></category>
+
+
+
+<category><pattern>POWIEDZ COS O DWORCU PKP</pattern>
+<template>Dworzec kolejowy znajdujący się w zachodniej części miasta
+został zbudowany w latach 60. XIX wieku. Połączenia kolejowe
+Sławna z Gdańskiem i Berlinem zostały uruchomione w 1869 roku.
+Do 1945r. Sławno było dużym węzłem komunikacji kolejowej.
+Dworcowe budynki są murowane, licowane cegłą.Zabytkowy dworzec
+w Sławnie był pierwszym w województwie zachodniopomorskim,
+który został zmodernizowany przez PKP SA w ramach programu
+rewitalizacji dworców kolejowych.
+</template></category>
+<category><pattern>* DWORCU PKP</pattern><template>			<srai>POWIEDZ COS O DWORCU PKP</srai>
+</template></category>
+<category><pattern>* DWORCU *</pattern><template>			<srai>POWIEDZ COS O DWORCU PKP</srai>
+</template></category>
+<category><pattern>DWORCU *</pattern><template>			<srai>POWIEDZ COS O DWORCU PKP</srai>
+</template></category>
+<category><pattern>* DWORZEC *</pattern><template>			<srai>POWIEDZ COS O DWORCU PKP</srai>
+</template></category>
+<category><pattern>DWORZEC *</pattern><template>			<srai>POWIEDZ COS O DWORCU PKP</srai>
+</template></category>
+<category><pattern>* DWORZEC</pattern><template>			<srai>POWIEDZ COS O DWORCU PKP</srai>
+</template></category>
+<category><pattern>ILE LAT MA DWORZEC PKP</pattern>
+<template>Ponad 156 lat !
+</template></category>
+<category><pattern>* ILE LAT * DWORZEC</pattern><template>			<srai>ILE LAT MA DWORZEC PKP</srai>
+</template></category>
+<category><pattern>* ILE LAT * DWORZEC *</pattern><template>			<srai>ILE LAT MA DWORZEC PKP</srai>
+</template></category>
+<category><pattern>ILE LAT * DWORZEC *</pattern><template>			<srai>ILE LAT MA DWORZEC PKP</srai>
+</template></category>
+<category><pattern>ILE LAT * DWORZEC</pattern><template>			<srai>ILE LAT MA DWORZEC PKP</srai>
+</template></category>
+
+<category><pattern>KOSCIOL</pattern>
+<template>O który kościół pytasz:
+		Kościół pw. WNMP, czy
+		Kościoł pw. św Antotniego ?
+</template></category>
+<category><pattern>* KOSCIOL</pattern><template>			<srai>KOSCIOL</srai>
+</template></category>
+<category><pattern>* KOSCIOL *</pattern><template>			<srai>KOSCIOL</srai>
+</template></category>
+<category><pattern>KOSCIOL *</pattern><template>			<srai>KOSCIOL</srai>
+</template></category>
+
+<category><pattern>KOSCIOL WNMP</pattern>
+<template>Kościół Mariacki jest największą budowlą w Sławnie.
+Ufundowany został w latach 1326-1364 przez księżnę Zofię,
+żonę Barnima IV. W okresie powstania światyni patronat
+nad nią sprawowali Joanici. Wyposażanie świątyni trwało
+do II połowy XV wieku. Perłą był ołtarz renesansowy,
+który nie przetrwał okresu II wojny światowej. Od XVI wieku
+kościół był światynią protestancką i wrócił w ręce
+katolików po II wojnie światowej. Po wejściu wojsk
+radzieckich do Sławna, 7 marca 1945 roku, kościół
+został zniszczony. Zakon Franciszkanów sprawujący
+opiekę nad świątynią rozpoczął jego odbudowę, która
+trwała do końca lat 50-tych XX wieku.
+</template></category>
+<category><pattern>KOSCIOL WNMP *</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIOL WNMP *</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIOL WNMP</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>KOSCIOL * WNMP</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIOL * WNMP</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIOL * WNMP *</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>KOSCIOL * WNMP *</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>KOSCIOL * NMP</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIOL * NMP</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>KOSCIOL * NMP *</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIOL * NMP *</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>KOSCIOL WNIEBOWZIECIA NAJSWIETSZEJ MARII PANNY</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIOL WNIEBOWZIECIA NAJSWIETSZEJ MARII PANNY</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIOL WNIEBOWZIECIA NAJSWIETSZEJ MARII PANNY *</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>KOSCIOL WNIEBOWZIECIA NAJSWIETSZEJ MARII PANNY * </pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>KOSCIELE WNMP *</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIELE WNMP *</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIELE WNMP</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>KOSCIELE * NMP</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIELE * NMP</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>KOSCIELE * NMP *</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIELE * NMP *</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>KOSCIELE WNIEBOWZIECIA NAJSWIETSZEJ MARII PANNY</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIELE WNIEBOWZIECIA NAJSWIETSZEJ MARII PANNY</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>* KOSCIELE WNIEBOWZIECIA NAJSWIETSZEJ MARII PANNY *</pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>KOSCIELE WNIEBOWZIECIA NAJSWIETSZEJ MARII PANNY * </pattern><template>			<srai>KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>ILE LAT MA KOSCIOL WNMP</pattern>
+<template>Kościół Mariacki ma już prawie 700 lat !
+</template></category>
+<category><pattern>ILE LAT * KOSCIOL WNMP</pattern><template>			<srai>ILE LAT MA KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>ILE LAT * KOSCIOL WNMP *</pattern><template>			<srai>ILE LAT MA KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>ILE LAT * KOSCIOL * NMP</pattern><template>			<srai>ILE LAT MA KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>ILE LAT * KOSCIOL * NMP *</pattern><template>			<srai>ILE LAT MA KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>ILE LAT * KOSCIOL WNIEBOWZIECIA NAJSWIETSZEJ MARII PANNY</pattern><template>			<srai>ILE LAT MA KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>ILE LAT * KOSCIOL WNIEBOWZIECIA NAJSWIETSZEJ MARII PANNY * </pattern><template>			<srai>ILE LAT MA KOSCIOL WNMP</srai>
+</template></category>
+<category><pattern>ILE LAT * KOSCIOL</pattern><template>			<srai>KOSCIOL</srai>
+</template></category>
+<category><pattern>* ILE LAT * KOSCIOL</pattern><template>			<srai>KOSCIOL</srai>
+</template></category>
+<category><pattern>ILE LAT * KOSCIOL *</pattern><template>			<srai>KOSCIOL</srai>
+</template></category>
+<category><pattern>* ILE LAT * KOSCIOL *</pattern><template>			<srai>KOSCIOL</srai>
+</template></category>
+<category><pattern>NAJSTARSZY KOSCIOL</pattern>
+<template>Oczywiście że Kościoł WNMP, ma już prawie 700 lat !
+</template></category>
+<category><pattern>* NAJSTARSZY KOSCIOL </pattern><template>			<srai>NAJSTARSZY KOSCIOL</srai>
+</template></category>
+<category><pattern>* NAJSTARSZY KOSCIOL *</pattern><template>			<srai>NAJSTARSZY KOSCIOL</srai>
+</template></category>
+<category><pattern>NAJSTARSZY KOSCIOL * </pattern><template>			<srai>NAJSTARSZY KOSCIOL</srai>
+</template></category>
+<category><pattern>* KOSCIOL * STARSZY </pattern><template>			<srai>NAJSTARSZY KOSCIOL</srai>
+</template></category>
+<category><pattern>NAJSTARSZY *</pattern><template>			<srai>NAJSTARSZY KOSCIOL</srai>
+</template></category>
+<category><pattern>* NAJSTARSZY</pattern><template>			<srai>NAJSTARSZY KOSCIOL</srai>
+</template></category>
+<category><pattern>* NAJSTARSZY *</pattern><template>			<srai>NAJSTARSZY KOSCIOL</srai>
+</template></category>
+
+<category><pattern>KOSCIOL SW ANTONIEGO</pattern>
+<template>Kościół parafialny pw św. Antoniego z Padwy znajduje
+się przy ul. Kościelnej 12 i jest dziełem sławieńskiego
+architekta Fridricha Suhra. Zbudowany dzięki inicjatywie
+pierwszego proboszcza kuracji katolickiej ks. Franciszka
+Nieringa w latach 1925-1928.Na ścianach znajdziemy 14 
+płaskorzeźb, które przedstawiają stacje drogi krzyżowej.
+Kościół należy do parafii rzymskokatolickiej.
+</template></category>
+<category><pattern>KOSCIOL * ANTONIEGO </pattern><template>			<srai>KOSCIOL SW ANTONIEGO</srai>
+</template></category>
+<category><pattern>* KOSCIOL * ANTONIEGO *</pattern><template>			<srai>KOSCIOL SW ANTONIEGO</srai>
+</template></category>
+<category><pattern>* KOSCIOL * ANTONIEGO</pattern><template>			<srai>KOSCIOL SW ANTONIEGO</srai>
+</template></category>
+<category><pattern>KOSCIOL * ANTONIEGO *</pattern><template>			<srai>KOSCIOL SW ANTONIEGO</srai>
+</template></category>
+
+<category><pattern>ILE LAT MA KOSCIOL SW ANTONIEGO</pattern>
+<template>Ponad 28 lat!
+</template></category>
+<category><pattern>* LAT * KOSCIOL * ANTONIEGO</pattern><template>			<srai>ILE LAT MA KOSCIOL SW ANTONIEGO</srai>
+</template></category>
+<category><pattern>* LAT * KOSCIOL * ANTONIEGO *</pattern><template>			<srai>ILE LAT MA KOSCIOL SW ANTONIEGO</srai>
+</template></category>
+
+
+<category><pattern>RATUSZ</pattern>
+<template>Ratusz zbudowany w latach 1905-1907 przez architekta Eduarda Kocha ze Słupska.
+Reprezentacyjny gmach zbudowany został w stylu neobarokowym i
+jest jednym z najbardziej okazałych budynków w Sławnie. 
+Wewnątrz budynku można znaleźć zachowane oryginalne kafle
+ścienne i podłogowe, balustrady, drzwi i okna. W sali herbowej
+mieszczą się witraże przedstawiające herby miast dawnego powiatu
+sławieńskiego oraz junkierskich rodów współfinansujących budowę
+obiektu. Do 1945 roku obiekt pełnił funkcję urzędu powiatowego.
+Po wejściu wojsk radzieckich do miasta, stacjonowała w nim 
+komendantura radziecka. Po zakończeniu działań wojennych w 
+budynku nadal urzędowały władze powiatowe, później - miejskie
+i gminne. Obecnie mieszczą się w nim Urząd Miejski i Urząd Gminy.
+</template></category>
+<category><pattern>* RATUSZ</pattern><template>			<srai>RATUSZ</srai>
+</template></category>
+<category><pattern>* RATUSZ *</pattern><template>			<srai>RATUSZ</srai>
+</template></category>
+<category><pattern>RATUSZ *</pattern><template>			<srai>RATUSZ</srai>
+</template></category>
+<category><pattern>* URZAD</pattern><template>			<srai>RATUSZ</srai>
+</template></category>
+<category><pattern>* URZAD *</pattern><template>			<srai>RATUSZ</srai>
+</template></category>
+<category><pattern>URZAD *</pattern><template>			<srai>RATUSZ</srai>
+</template></category>
+<category><pattern>URZAD</pattern><template>			<srai>RATUSZ</srai>
+</template></category>
+<category><pattern>* URZADZIE</pattern><template>			<srai>RATUSZ</srai>
+</template></category>
+<category><pattern>* URZADZIE *</pattern><template>			<srai>RATUSZ</srai>
+</template></category>
+<category><pattern>URZADZIE *</pattern><template>			<srai>RATUSZ</srai>
+</template></category>
+<category><pattern>URZADZIE</pattern><template>			<srai>RATUSZ</srai>
+</template></category>
+
+
+
+<category><pattern>ILE LAT MA SLAWNO</pattern>
+<template>Nie uwierzysz, ale Sławno ma już 
+prawie 700 lat ! W przyszłym roku mamy jubileusz,
+przyjedzie nawet P. Duda :P
+</template></category>
+<category><pattern>ILE LAT * </pattern><template>			<srai>ILE LAT MA SLAWNO</srai>
+</template></category>
+<category><pattern>ILE STULECI * </pattern><template>			<srai>ILE LAT MA SLAWNO</srai>
+</template></category>
+<category><pattern>ILE * LAT </pattern><template>			<srai>ILE LAT MA SLAWNO</srai>
+</template></category>
+<category><pattern>ILE * LAT * </pattern><template>			<srai>ILE LAT MA SLAWNO</srai>
+</template></category>
+<category><pattern>* ILE * LAT * </pattern><template>			<srai>ILE LAT MA SLAWNO</srai>
+</template></category>
 </aiml>

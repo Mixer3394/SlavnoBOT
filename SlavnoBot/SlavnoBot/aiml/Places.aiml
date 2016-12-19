@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Annotated Version updated September 2003 -->
+<aiml>
+<category><pattern>GDZIE PIWO</pattern>
+<template>Największy wybór piw jest w Tesco przy ulicy Kupieckiej</template>
+</category>
+<category><pattern>GDZIE PIWO *</pattern><template>			<srai>GDZIE PIWO</srai>
+</template></category>
+<category><pattern>GDZIE * PIWO *</pattern><template>			<srai>GDZIE PIWO</srai>
+</template></category>
+<category><pattern>GDZIE * PIWO</pattern><template>			<srai>GDZIE PIWO</srai>
+</template></category>
+<category><pattern>* GDZIE * PIWO</pattern><template>			<srai>GDZIE PIWO</srai>
+</template></category>
+<category><pattern>* GDZIE * PIWO *</pattern><template>			<srai>GDZIE PIWO</srai>
+</template></category>
+<category><pattern>* GDZIE PIWO *</pattern><template>			<srai>GDZIE PIWO</srai>
+</template></category>
+<category><pattern>* GDZIE PIWO</pattern><template>			<srai>GDZIE PIWO</srai>
+</template></category>
+<category><pattern>PIWA</pattern><template>			<srai>GDZIE PIWO</srai>
+</template></category>
+<category><pattern>PIWA *</pattern><template>			<srai>GDZIE PIWO</srai>
+</template></category>
+<category><pattern>* PIWA</pattern><template>			<srai>GDZIE PIWO</srai>
+</template></category>
+<category><pattern>* PIWA *</pattern><template>			<srai>GDZIE PIWO</srai>
+</template></category>
+
+<category><pattern>PARK MIEJSKI</pattern>
+<template>Park miejski w Sławnie znajduje się przy
+ulicy Gdańskiej</template>
+</category>
+<category><pattern>PARK MIEJSKI *</pattern><template>			<srai>PARK MIEJSKI</srai>
+</template></category>
+<category><pattern>* PARK MIEJSKI *</pattern><template>			<srai>PARK MIEJSKI</srai>
+</template></category>
+<category><pattern>* PARK MIEJSKI</pattern><template>			<srai>PARK MIEJSKI</srai>
+</template></category>
+<category><pattern>PLAC WYSZYNSKIEGO</pattern>
+<template>Park miejski w Sławnie znajduje się na
+placu Kardynała Wyszyńskiego</template>
+</category>
+<category><pattern>PLAC WYSZYNSKIEGO *</pattern><template>			<srai>PLAC WYSZYNSKIEGO</srai>
+</template></category>
+<category><pattern>* PLAC WYSZYNSKIEGO *</pattern><template>			<srai>PLAC WYSZYNSKIEGO</srai>
+</template></category>
+<category><pattern>* PLAC WYSZYNSKIEGO</pattern><template>			<srai>PLAC WYSZYNSKIEGO</srai>
+</template></category>
+<category><pattern>PLAC * WYSZYNSKIEGO *</pattern><template>			<srai>PLAC WYSZYNSKIEGO</srai>
+</template></category>
+<category><pattern>* PLAC * WYSZYNSKIEGO *</pattern><template>			<srai>PLAC WYSZYNSKIEGO</srai>
+</template></category>
+<category><pattern>* PLAC * WYSZYNSKIEGO</pattern><template>			<srai>PLAC WYSZYNSKIEGO</srai>
+</template></category>
+
+
+
+<category><pattern>CIEKAWE MIEJSCA</pattern>
+<template>W Sławnie jest wiele ciekawych miejsc,
+dziś proponuję Ci<random>
+<li>park przy Gimnazjum Miejskim nr 1</li>
+<li>park miejski</li>
+<li>plac Kardynała Wyszyńskiego</li>
+</random>
+</template>
+</category>
+
+<category><pattern>CIEKAWE MIEJSCA *</pattern><template>			<srai>CIEKAWE MIEJSCA</srai>
+</template></category>
+<category><pattern>* CIEKAWE MIEJSCA *</pattern><template>			<srai>CIEKAWE MIEJSCA</srai>
+</template></category>
+<category><pattern>* CIEKAWE MIEJSCA</pattern><template>			<srai>CIEKAWE MIEJSCA</srai>
+</template></category>
+<category><pattern>CIEKAWE MIEJSCE *</pattern><template>			<srai>CIEKAWE MIEJSCA</srai>
+</template></category>
+<category><pattern>* CIEKAWE MIEJSCE *</pattern><template>			<srai>CIEKAWE MIEJSCA</srai>
+</template></category>
+<category><pattern>* CIEKAWE MIEJSCE</pattern><template>			<srai>CIEKAWE MIEJSCA</srai>
+</template></category>
+<category><pattern>INTERESUJACE MIEJSCA *</pattern><template>			<srai>CIEKAWE MIEJSCA</srai>
+</template></category>
+<category><pattern>* INTERESUJACE MIEJSCA *</pattern><template>			<srai>CIEKAWE MIEJSCA</srai>
+</template></category>
+<category><pattern>* INTERESUJACE MIEJSCA</pattern><template>			<srai>CIEKAWE MIEJSCA</srai>
+</template></category>
+<category><pattern>INTERESUJACE MIEJSCE *</pattern><template>			<srai>CIEKAWE MIEJSCA</srai>
+</template></category>
+<category><pattern>* INTERESUJACE MIEJSCE *</pattern><template>			<srai>CIEKAWE MIEJSCA</srai>
+</template></category>
+<category><pattern>* INTERESUJACE MIEJSCE</pattern><template>			<srai>CIEKAWE MIEJSCA</srai>
+</template></category>
+
+<category><pattern>SZKOLA PODSTAWOWA 1</pattern>
+<template>Szkoła Podstawowa nr 1 znajduje się przy
+ulicy Juliana Kossaka 11</template>
+</category>
+<category><pattern>* SZKOLA PODSTAWOWA 1 *</pattern><template>			<srai>SZKOLA PODSTAWOWA 1</srai>
+</template></category>
+<category><pattern>SZKOLA PODSTAWOWA 1 *</pattern><template>			<srai>SZKOLA PODSTAWOWA 1</srai>
+</template></category>
+<category><pattern>* SZKOLA PODSTAWOWA 1</pattern><template>			<srai>SZKOLA PODSTAWOWA 1</srai>
+</template></category>
+<category><pattern>* SZKOLA 1 *</pattern><template>			<srai>SZKOLA PODSTAWOWA 1</srai>
+</template></category>
+<category><pattern>SZKOLA 1 *</pattern><template>			<srai>SZKOLA PODSTAWOWA 1</srai>
+</template></category>
+<category><pattern>* SZKOLA 1</pattern><template>			<srai>SZKOLA PODSTAWOWA 1</srai>
+</template></category>
+<category><pattern>SZKOLA PODSTAWOWA 1</pattern>
+<template>Szkoła Podstawowa nr 1 znajduje się przy
+ulicy Stefanii Sempołowskiej 1</template>
+</category>
+<category><pattern>* SZKOLA PODSTAWOWA 1 *</pattern><template>			<srai>SZKOLA PODSTAWOWA 1</srai>
+</template></category>
+<category><pattern>SZKOLA PODSTAWOWA 1 *</pattern><template>			<srai>SZKOLA PODSTAWOWA 1</srai>
+</template></category>
+<category><pattern>* SZKOLA PODSTAWOWA 1</pattern><template>			<srai>SZKOLA PODSTAWOWA 1</srai>
+</template></category>
+<category><pattern>* SZKOLA 1 *</pattern><template>			<srai>SZKOLA PODSTAWOWA 1</srai>
+</template></category>
+<category><pattern>SZKOLA 1 *</pattern><template>			<srai>SZKOLA PODSTAWOWA 1</srai>
+</template></category>
+<category><pattern>* SZKOLA 1</pattern><template>			<srai>SZKOLA PODSTAWOWA 1</srai>
+</template></category>
+
+<category><pattern>GIMNAZJUM 1</pattern>
+<template>Gimnazjum Miejskie nr 1 znajduje się przy
+placu Sportowym 1. Budynek gimnazjum był budowany na
+wzór nazistowskiej swastyki, na szczeście nigdy
+nie został znak w zupełności ukończony.</template>
+</category>
+<category><pattern>* GIMNAZJUM 1 *</pattern><template>			<srai>GIMNAZJUM 1</srai>
+</template></category>
+<category><pattern>GIMNAZJUM 1 *</pattern><template>			<srai>GIMNAZJUM 1</srai>
+</template></category>
+<category><pattern>* GIMNAZJUM 1</pattern><template>			<srai>GIMNAZJUM 1</srai>
+</template></category>
+<category><pattern>* GIMNAZJUM * 1 *</pattern><template>			<srai>GIMNAZJUM 1</srai>
+</template></category>
+<category><pattern>GIMNAZJUM * 1 *</pattern><template>			<srai>GIMNAZJUM 1</srai>
+</template></category>
+<category><pattern>* GIMNAZJUM * 1</pattern><template>			<srai>GIMNAZJUM 1</srai>
+</template></category>
+<category><pattern>* GIMNAZJUM MIEJSKIE *</pattern><template>			<srai>GIMNAZJUM 1</srai>
+</template></category>
+<category><pattern>GIMNAZJUM MIEJSKIE *</pattern><template>			<srai>GIMNAZJUM 1</srai>
+</template></category>
+<category><pattern>* GIMNAZJUM MIEJSKIE</pattern><template>			<srai>GIMNAZJUM 1</srai>
+</template></category>
+
+<category><pattern>ZS</pattern>
+<template>Zespół Szkół w Sławnie znajduje się przy
+Augusta Cieszkowskiego 4</template>
+</category>
+<category><pattern>ZS *</pattern><template>
+<srai>ZS</srai>
+</template></category>
+<category><pattern>* ZS *</pattern><template> <srai>ZS</srai>
+</template></category>
+<category><pattern>* ZS</pattern><template> <srai>ZS</srai>
+</template></category>
+<category><pattern>* GIMNAZJUM 2 *</pattern><template>Gimnazjum nr 2 miesci sie w ZS
+<srai>ZS</srai>
+</template></category>
+<category><pattern>GIMNAZJUM 2 *</pattern><template>Gimnazjum nr 2 miesci sie w ZS
+<srai>ZS</srai>
+</template></category>
+<category><pattern>* GIMNAZJUM 2</pattern><template>
+Gimnazjum nr 2 miesci sie w ZS
+<srai>ZS</srai>
+</template></category>
+<category><pattern>* GIMNAZJUM * 2 *</pattern><template>Gimnazjum nr 2 miesci sie w ZS
+<srai>ZS</srai>
+</template></category>
+<category><pattern>GIMNAZJUM * 2 *</pattern><template>Gimnazjum nr 2 miesci sie w ZS
+<srai>ZS</srai>
+</template></category>
+<category><pattern>* GIMNAZJUM * 2</pattern><template>Gimnazjum nr 2 miesci sie w ZS
+<srai>ZS</srai>
+</template></category>
+<category><pattern>* LICEUM *</pattern><template>Liceum miesci sie w ZS
+<srai>ZS</srai>
+</template></category>
+<category><pattern>LICEUM *</pattern><template>Liceum miesci sie w ZS
+<srai>ZS</srai>
+</template></category>
+<category><pattern>* LICEUM</pattern><template>Liceum miesci sie w ZS
+<srai>ZS</srai>
+</template></category>
+
+<category><pattern>ZSA</pattern>
+<template>Zespół Szkół Agrotechnicznych w Sławnie znajduje się przy
+Stefanii Sempołowskiej 2</template>
+</category>
+<category><pattern>* ZSA</pattern><template>			<srai>ZSA</srai>
+</template></category>
+<category><pattern>* ZSA *</pattern><template>			<srai>ZSA</srai>
+</template></category>
+<category><pattern>ZSA *</pattern><template>			<srai>ZSA</srai>
+</template></category>
+<category><pattern>* TECHNIKUM</pattern><template>Technikum miesci sie w ZSA
+<srai>ZSA</srai>
+</template></category>
+<category><pattern>* TECHNIKUM *</pattern><template>Technikum miesci sie w ZSA
+<srai>ZSA</srai>
+</template></category>
+<category><pattern>TECHNIKUM *</pattern><template>Technikum miesci sie w ZSA
+<srai>ZSA</srai>
+</template></category>
+<category><pattern>ZAWODOWA *</pattern><template>Zawodówka miesci sie w ZSA
+<srai>ZSA</srai>
+</template></category>
+<category><pattern>* ZAWODOWA *</pattern><template>Zawodówka miesci sie w ZSA
+<srai>ZSA</srai>
+</template></category>
+<category><pattern>* ZAWODOWA</pattern><template>Zawodówka miesci sie w ZSA
+<srai>ZSA</srai>
+</template></category>
+<category><pattern>* ZAWODOWKA</pattern><template>Zawodówka miesci sie w ZSA
+<srai>ZSA</srai>
+</template></category>
+<category><pattern>* ZAWODOWKA *</pattern><template>Zawodówka miesci sie w ZSA
+<srai>ZSA</srai>
+</template></category>
+<category><pattern>ZAWODOWKA *</pattern><template>Zawodówka miesci sie w ZSA
+<srai>ZSA</srai>
+</template></category>
+
+
+<category><pattern>SZKOLY</pattern>
+<template>W Sławnie sa: 
+	dwie szkoły podstowowe
+		Szkoła Podstawowa nr 3
+		Szkoła Podstawowa nr 1
+	dwa Gimnazja 
+		Gimnazjum Nr 1
+		Gimnazjum Nr 2 przy ZS
+	jedno Liceum przy ZS
+	jedno Technikum przy ZSA
+	jedna zawodówka przy ZSA</template>
+</category>
+<category><pattern>SZKOLY *</pattern><template>			<srai>SZKOLY</srai>
+</template></category>
+<category><pattern>* SZKOLY *</pattern><template>			<srai>SZKOLY</srai>
+</template></category>
+<category><pattern>* SZKOLY</pattern><template>			<srai>SZKOLY</srai>
+</template></category>
+<category><pattern>SZKOLA *</pattern><template>			<srai>SZKOLY</srai>
+</template></category>
+<category><pattern>* SZKOLA *</pattern><template>			<srai>SZKOLY</srai>
+</template></category>
+<category><pattern>* SZKOLA</pattern><template>			<srai>SZKOLY</srai>
+</template></category>
+
+<category><pattern>POMNIKI PRZYRODY</pattern>
+<template>W Sławnie jest dużo pomników przyrody m.in.
+	Cis pospolity przy ulicy Gdańskiej
+	Lipa drobnolistna przy ulicy Gdańskiej
+	Dąb szypułkowy w lesie komunalnym
+	Park im. Polskiej Ogranizacji Wojskowej(Park miejski)
+	Tulipanowiec amerykański przy al. Wojska Polskiego</template>
+</category>
+<category><pattern>POMNIKI PRZYRODY *</pattern><template>			<srai>POMNIKI PRZYRODY</srai>
+</template></category>
+<category><pattern>* POMNIKI PRZYRODY *</pattern><template>			<srai>POMNIKI PRZYRODY</srai>
+</template></category>
+<category><pattern>* POMNIKI PRZYRODY</pattern><template>			<srai>POMNIKI PRZYRODY</srai>
+</template></category>
+<category><pattern>POMNIK PRZYRODY *</pattern><template>			<srai>POMNIKI PRZYRODY</srai>
+</template></category>
+<category><pattern>* POMNIK PRZYRODY *</pattern><template>			<srai>POMNIKI PRZYRODY</srai>
+</template></category>
+<category><pattern>* POMNIK PRZYRODY</pattern><template>			<srai>POMNIKI PRZYRODY</srai>
+</template></category>
+
+<category><pattern>CMENTARZ KOMUNALNY</pattern>
+<template>Cmenatrz komunalnym w Sławnie znajduje się w Sławnie
+przy ulicy Stefanii Sempołowskiej. Spoczywa na nim około 13 tys.
+osób. Administratorem cmentarza jest Łukasz Krążko.</template>
+</category>
+<category><pattern>* CMENTARZ KOMUNALNY</pattern><template>			<srai>CMENTARZ KOMUNALNY</srai>
+</template></category>
+<category><pattern>CMENTARZ KOMUNALNY *</pattern><template>			<srai>CMENTARZ KOMUNALNY</srai>
+</template></category>
+<category><pattern>* CMENTARZ KOMUNALNY *</pattern><template>			<srai>CMENTARZ KOMUNALNY</srai>
+</template></category>
+<category><pattern>* CMENTARZ</pattern><template>			<srai>CMENTARZ KOMUNALNY</srai>
+</template></category>
+<category><pattern>CMENTARZ *</pattern><template>			<srai>CMENTARZ KOMUNALNY</srai>
+</template></category>
+<category><pattern>* CMENTARZ *</pattern><template>			<srai>CMENTARZ KOMUNALNY</srai>
+</template></category>
+<category><pattern>* CMENTARZU</pattern><template>			<srai>CMENTARZ KOMUNALNY</srai>
+</template></category>
+<category><pattern>CMENTARZU *</pattern><template>			<srai>CMENTARZ KOMUNALNY</srai>
+</template></category>
+<category><pattern>* CMENTARZU *</pattern><template>			<srai>CMENTARZ KOMUNALNY</srai>
+</template></category>
+
+<category><pattern>CO WARTO ZOBACZYC</pattern>
+<template>Napewno warto zwiedzić:   <random>
+<li>bramy Sławna, które stanowiły kiedyś cześć obwarowania</li>
+<li>Urząd Miasta</li>
+<li>Liceum Ogólnokształcące</li>
+<li>Gimnazjum Miejskie</li>
+<li>Willa A. Schultza z 1897 roku</li>
+</random>
+</template>
+</category>
+
+<category><pattern>* CO WARTO ZOBACZYC *</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+<category><pattern>* CO WARTO ZOBACZYC</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+<category><pattern>CO WARTO ZOBACZYC *</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+
+<category><pattern>* CO WARTO ZWIEDZIC *</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+<category><pattern>* CO WARTO ZWIEDZIC</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+<category><pattern>CO WARTO ZWIEDZIC *</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+<category><pattern>CO WARTO ZWIEDZIC</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+
+<category><pattern>* CO * ZWIEDZIC *</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+<category><pattern>* CO * ZWIEDZIC</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+<category><pattern>CO * ZWIEDZIC *</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+<category><pattern>CO * ZWIEDZIC</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+<category><pattern>* CO * ZOBACZYC *</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+<category><pattern>* CO * ZOBACZYC</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+<category><pattern>CO * ZOBACZYC *</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+<category><pattern>CO * ZOBACZYC</pattern><template>			<srai>CO WARTO ZOBACZYC</srai>
+</template></category>
+
+<category><pattern>NAPRAWA AUTA</pattern>
+<template>Najlepiej u Arkadiusza Krążko</template>
+</category>
+<category><pattern>NAPRAWA AUTA *</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>* NAPRAWA AUTA *</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>* NAPRAWA AUTA</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>NAPRAWIC</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>* NAPRAWIC *</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>* NAPRAWIC</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>NAPRAWIC *</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>MECHANIK</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>MECHANIK *</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>* MECHANIK</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>* MECHANIK *</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>MECHANIKA</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>MECHANIKA *</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>* MECHANIKA</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>* MECHANIKA *</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>NAPRAWA AUT *</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>* NAPRAWA AUT *</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+<category><pattern>* NAPRAWA AUT</pattern><template>			<srai>NAPRAWA AUTA</srai>
+</template></category>
+
+<category><pattern>WILLA SCHULTZA</pattern>
+<template>Willa A. Schultza z 1897 r.- do 31 sierpnia 
+2011 roku siedziba Zespołu Szkół Zawodowych.
+Naprawdę ładny budynek, sprawdz w necie.</template>
+</category>
+<category><pattern>* WILLA SCHULTZA</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>* WILLA SCHULTZA *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>WILLA SCHULTZA *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>* WILLA * SCHULTZA</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>* WILLA * SCHULTZA *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>WILLA * SCHULTZA *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>WILLA * SCHULTZA</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+
+<category><pattern>* WILLA SCHULTZ</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>* WILLA SCHULTZ *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>WILLA SCHULTZ *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>* WILLA * SCHULTZ</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>* WILLA * SCHULTZ *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>WILLA * SCHULTZ *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>WILLA * SCHULTZ</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+
+<category><pattern>* WILLI SCHULTZA</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>* WILLI SCHULTZA *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>WILLI SCHULTZA *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>* WILLI * SCHULTZA</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>* WILLI * SCHULTZA *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>WILLI * SCHULTZA *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>WILLI * SCHULTZA</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+
+<category><pattern>* WILLI SCHULTZ</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>* WILLI SCHULTZ *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>WILLI SCHULTZ *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>* WILLI * SCHULTZ</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>* WILLI * SCHULTZ *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>WILLI * SCHULTZ *</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+<category><pattern>WILLI * SCHULTZ</pattern><template>			<srai>WILLA SCHULTZA</srai>
+</template></category>
+</aiml>

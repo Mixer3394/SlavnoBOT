@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Annotated Version updated September 2003 -->
+<aiml>
+<category><pattern>GDZIE SDK</pattern>
+<template>Sławieński Dom Kultury mieści się w Sławnie
+przy ulicy Cieszkowskiego 2
+tel.: 59 810 76 70
+email: sekretariat@sdk.slawno.pl</template>
+</category>
+<category><pattern>GDZIE * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>GDZIE * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>GDZIE * SLAWIENSKI DOM KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>GDZIE * SLAWIENSKI DOM KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>TELEFON SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* TELEFON * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>TELEFON * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* TELEFON * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>TELEFON * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>TELEFON SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* TELEFON * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>TELEFON * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* TELEFON * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>TELEFON * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+
+<category><pattern>KONTAKT SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* KONTAKT * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>KONTAKT * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* KONTAKT * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>KONTAKT * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>KONTAKT SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* KONTAKT * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>KONTAKT * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* KONTAKT * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>KONTAKT * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+
+<category><pattern>EMAIL SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* EMAIL * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>EMAIL * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* EMAIL * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>EMAIL * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>EMAIL SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* EMAIL * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>EMAIL * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* EMAIL * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>EMAIL * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+
+<category><pattern>MAIL SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* MAIL * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>MAIL * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* MAIL * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>MAIL * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>MAIL SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* MAIL * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>MAIL * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* MAIL * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>MAIL * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+
+<category><pattern>EMAILA SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* EMAILA * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>EMAILA * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* EMAILA * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>EMAILA * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>EMAILA SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* EMAILA * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>EMAILA * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* EMAILA * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>EMAILA * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+
+<category><pattern>E-MAILA SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* E-MAILA * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>E-MAILA * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* E-MAILA * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>E-MAILA * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>E-MAILA SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* E-MAILA * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>E-MAILA * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* E-MAILA * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>E-MAILA * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+
+<category><pattern>E-MAIL SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* E-MAIL * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>E-MAIL * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* E-MAIL * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>E-MAIL * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>E-MAIL SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* E-MAIL * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>E-MAIL * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* E-MAIL * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>E-MAIL * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+
+<category><pattern>MAILA SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* MAILA * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>MAILA * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* MAILA * SDK *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>MAILA * SDK</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>MAILA SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* MAILA * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>MAILA * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>* MAILA * SLAWIENSKIEGO DOMU KULTURY *</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+<category><pattern>MAILA * SLAWIENSKIEGO DOMU KULTURY</pattern><template>			<srai>GDZIE SDK</srai>
+</template></category>
+
+<category><pattern>SDK</pattern>
+<template>To intytucja kulturalna, gdzie znajdziesz:
+	Kino 2D i 3D
+	Panią Bożene
+	liczne zajęcia kulturalne
+	różnego rodzaju wernisaże
+	różne spektakle teatralne oraz koncerty
+	</template>
+</category>
+<category><pattern>SDK *</pattern><template>			<srai>SDK</srai>
+</template></category>
+<category><pattern>* SDK *</pattern><template>			<srai>SDK</srai>
+</template></category>
+<category><pattern>* SDK</pattern><template>			<srai>SDK</srai>
+</template></category>
+<category><pattern>SLAWIENSKI DOM KULTURY</pattern><template>			<srai>SDK</srai>
+</template></category>
+<category><pattern>* SLAWIENSKI DOM KULTURY</pattern><template>			<srai>SDK</srai>
+</template></category>
+<category><pattern>* SLAWIENSKI DOM KULTURY *</pattern><template>			<srai>SDK</srai>
+</template></category>
+<category><pattern>SLAWIENSKI DOM KULTURY *</pattern><template>			<srai>SDK</srai>
+</template></category>
+
+
+<category><pattern>KTO JEST BURMISTRZEM</pattern>
+<template>Aktualnym burmistrzem jest Krzysztof Frankenstein</template>
+</category>
+<category><pattern>KTO JEST BURMISTRZEM *</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO SPRAWUJE * BURMISTRZA *</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO SPRAWUJE * BURMISTRZA</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO JEST WLODARZEM *</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO SPRAWUJE * WLODARZA *</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO SPRAWUJE * WLODARZA</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO JEST WLODARZEM</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO PELNI WLADZE</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO PELNI * WLADZE</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO PELNI * WLADZE *</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+
+<category><pattern>KTO BYL BURMISTRZEM</pattern>
+<template>Burmistrzem Sławna był:
+	Wojciech Ludwikowski (1990-2002)
+	Mirosław Bugajski (2002-2007)
+	Krzysztof Frankenstein (2007- )</template>
+</category>
+<category><pattern>KTO BYL BURMISTRZEM *</pattern><template>			<srai>KTO BYL BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO SPRAWOWAL * BURMISTRZA *</pattern><template>			<srai>KTO BYL BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO SPRAWOWAL * BURMISTRZA</pattern><template>			<srai>KTO BYL BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO BYL WLODARZEM *</pattern><template>			<srai>KTO BYL BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO SPRAWOWAL * WLODARZA *</pattern><template>			<srai>KTO BYL BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO SPRAWOWAL * WLODARZA</pattern><template>			<srai>KTO BYL BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO PELNIL WLADZE</pattern><template>			<srai>KTO BYL BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO PELNIL * WLADZE</pattern><template>			<srai>KTO BYL BURMISTRZEM</srai>
+</template></category>
+<category><pattern>KTO PELNIL * WLADZE *</pattern><template>			<srai>KTO BYL BURMISTRZEM</srai>
+</template></category>
+
+<category><pattern>* BURMISTRZA</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>BURMISTRZA</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>* BURMISTRZA *</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>BURMISTRZA *</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+
+<category><pattern>* BURMISTRZ</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>BURMISTRZ</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>* BURMISTRZ *</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+<category><pattern>BURMISTRZ *</pattern><template>			<srai>KTO JEST BURMISTRZEM</srai>
+</template></category>
+
+<category><pattern>RADA</pattern>
+<template>Do rady miasta Sławno należa:
+	Szczygielska Edyta - Przewodnicząca Rady Miasta
+	Bojaryn Marcin
+	Cichawa Kinga
+	Gertner Waldemar
+	Grzegorczyk Mirosław
+	Iwko Joanna
+	Kallaur Bożena
+	Konfederak Bożena
+	Kopczyński Paweł
+	Margielewski Dominik
+	Poprawska Maria 
+	Stark Jarosław
+	Szkudlarek Stanisław
+	Śledź Włodzimierz
+	Wojciechowska Ewa</template>
+</category>
+<category><pattern>RADA *</pattern><template>			<srai>RADA</srai>
+</template></category>
+<category><pattern>* RADA *</pattern><template>			<srai>RADA</srai>
+</template></category>
+<category><pattern>* RADA</pattern><template>			<srai>RADA</srai>
+</template></category>
+<category><pattern>* RADY *</pattern><template>			<srai>RADA</srai>
+</template></category>
+<category><pattern>RADY *</pattern><template>			<srai>RADA</srai>
+</template></category>
+<category><pattern>* RADY</pattern><template>			<srai>RADA</srai>
+</template></category>
+
+
+<category><pattern>STRAZ MIEJSKA</pattern>
+<template>W sławnie nie ma straży miejskiej.</template>
+</category>
+<category><pattern>STRAZ MIEJSKA *</pattern><template>			<srai>STRAZ MIEJSKA</srai>
+</template></category>
+<category><pattern>* STRAZ MIEJSKA *</pattern><template>			<srai>STRAZ MIEJSKA</srai>
+</template></category>
+<category><pattern>* STRAZ MIEJSKA</pattern><template>			<srai>STRAZ MIEJSKA</srai>
+</template></category>
+<category><pattern>* STRAZY MIEJSKIEJ</pattern><template>			<srai>STRAZ MIEJSKA</srai>
+</template></category>
+<category><pattern>* STRAZY MIEJSKIEJ *</pattern><template>			<srai>STRAZ MIEJSKA</srai>
+</template></category>
+<category><pattern>STRAZY MIEJSKIEJ *</pattern><template>			<srai>STRAZ MIEJSKA</srai>
+</template></category>
+
+
+
+<category><pattern>SLAWNO</pattern>
+<template>Sławno to miasto w północno-zachodniej Polsce, w województwie
+zachodniopomorskim, w powiecie sławieńskim, położone na
+Pobrzeżu Koszalińskim, nad rzeką Wieprzą i strugą 
+Moszczenicą, ok. 20 km od wybrzeża Morza Bałtyckiego.</template>
+</category>
+<category><pattern>SLAWNO *</pattern><template>			<srai>SLAWNO</srai>
+</template></category>
+<category><pattern>* SLAWNO *</pattern><template>			<srai>SLAWNO</srai>
+</template></category>
+<category><pattern>* SLAWNO</pattern><template>			<srai>SLAWNO</srai>
+</template></category>
+<category><pattern>SLAWNIE *</pattern><template>			<srai>SLAWNO</srai>
+</template></category>
+<category><pattern>* SLAWNIE *</pattern><template>			<srai>SLAWNO</srai>
+</template></category>
+<category><pattern>* SLAWNIE</pattern><template>			<srai>SLAWNO</srai>
+</template></category>
+
+<category><pattern>MIASTA PARTNERSKI</pattern>
+<template>Do miast parnerski miasta Sławno należy:
+	- miasto niemiecki Rinteln
+	- miasto ślaskie Ząbkowice Śląskie</template>
+</category>
+<category><pattern>* MIASTA PARTNERSKI</pattern><template>			<srai>MIASTA PARTNERSKI</srai>
+</template></category>
+<category><pattern>* MIASTA PARTNERSKI *</pattern><template>			<srai>MIASTA PARTNERSKI</srai>
+</template></category>
+<category><pattern>MIASTA PARTNERSKI *</pattern><template>			<srai>MIASTA PARTNERSKI</srai>
+</template></category>
+<category><pattern>* MIASTO PARTNERSKI</pattern><template>			<srai>MIASTA PARTNERSKI</srai>
+</template></category>
+<category><pattern>* MIASTO PARTNERSKI *</pattern><template>			<srai>MIASTA PARTNERSKI</srai>
+</template></category>
+<category><pattern>MIASTO PARTNERSKI *</pattern><template>			<srai>MIASTA PARTNERSKI</srai>
+</template></category>
+<category><pattern>MIASTO PARTNERSKI</pattern><template>			<srai>MIASTA PARTNERSKI</srai>
+</template></category>
+
+<category><pattern>TECHNOLOGIA</pattern>
+<template>Z najnowszych technologii w Sławnie został
+uruchomiony w ostatnim czasie Informator SMS, dzięki
+którym mieszkańcy mogą w szybkim czasie zostać poinformawni
+o wydarzeniach, czy planowanych modernizacjach w Sławnie</template>
+</category>
+<category><pattern>TECHNOLOGIA *</pattern><template>			<srai>TECHNOLOGIA</srai>
+</template></category>
+<category><pattern>* TECHNOLOGIA *</pattern><template>			<srai>TECHNOLOGIA</srai>
+</template></category>
+<category><pattern>* TECHNOLOGIA</pattern><template>			<srai>TECHNOLOGIA</srai>
+</template></category>
+<category><pattern>INFORMATOR SMS *</pattern><template>			<srai>TECHNOLOGIA</srai>
+</template></category>
+<category><pattern>* INFORMATOR SMS *</pattern><template>			<srai>TECHNOLOGIA</srai>
+</template></category>
+<category><pattern>* INFORMATOR SMS</pattern><template>			<srai>TECHNOLOGIA</srai>
+</template></category>
+<category><pattern>INFORMATOR SMS</pattern><template>			<srai>TECHNOLOGIA</srai>
+</template></category>
+
+
+
+
+</aiml>
